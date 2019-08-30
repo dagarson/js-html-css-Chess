@@ -1,0 +1,64 @@
+
+body{
+	background-image: url("background.jpg");
+}
+
+#title{
+	text-align: center;
+	color: white;
+	font-size:45px;
+}
+#ref{
+	text-align: center;
+	color: white;
+}
+
+/*gameboard style*/
+td.black {
+	background-color:rgb(199, 149, 84);
+	height:60px;
+	width:60px;
+}
+
+/*	Alternate gameboard style*/
+td.white {
+	background-color:rgba(158, 123, 78, 0.74);
+	height:60px;
+	width:60px;
+	margin:none ;
+	position: relative;
+}
+
+/*board styleing*/
+div.cBoard {
+	position:relative;
+	padding: auto;
+	margin:auto;
+	width:90%;
+	height: 50%;
+	max-width: 480px;
+	max-height:480px;
+}
+
+/*button style*/
+button.button {
+	font-size: 20px;
+	width: 150px;
+	margin-left: 47%;
+	margin-right: 45%;
+	margin-top: 10%;	
+}
+button.button:hover {
+	background-color:red;
+	color: white;
+}
+
+/*removed pieces section style*/
+div.left {
+	width: 20%;
+	height:500px;
+	float: left;
+	background-color:beige;
+}
+div.deadPeices {
+	width: 100%;}
